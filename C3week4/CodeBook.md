@@ -10,93 +10,93 @@ The first row contains the names of the variables, and the following rows contai
 
 *	activity
 	takes one of this value 
-	**   WALKING
-	**   WALKING_UPSTAIRS
-	**   WALKING_DOWNSTAIRS
-	**   SITTING
-	**   STANDING
-	**   LAYING
+	*   WALKING
+	*   WALKING_UPSTAIRS
+	*   WALKING_DOWNSTAIRS
+	*   SITTING
+	*   STANDING
+	*   LAYING
                                                                     
 *	subject
-	**    subject identifier,vary from 1 to 30.
+	*    subject identifier,vary from 1 to 30.
 
 *	time-domain body acceleration
-	**   timeDomainBodyAccelerometerMeanX                                  
-	**   timeDomainBodyAccelerometerMeanY                                 
-	**   timeDomainBodyAccelerometerMeanZ     
+	*   timeDomainBodyAccelerometerMeanX                                  
+	*   timeDomainBodyAccelerometerMeanY                                 
+	*   timeDomainBodyAccelerometerMeanZ     
 	
-	**   timeDomainBodyAccelerometerStandardDeviationX                   
-	**   timeDomainBodyAccelerometerStandardDeviationY                     
-	**   timeDomainBodyAccelerometerStandardDeviationZ  
+	*   timeDomainBodyAccelerometerStandardDeviationX                   
+	*   timeDomainBodyAccelerometerStandardDeviationY                     
+	*   timeDomainBodyAccelerometerStandardDeviationZ  
 	
-	**   timeDomainGravityAccelerometerMeanX                              
-	**   timeDomainGravityAccelerometerMeanY                              
-	**   timeDomainGravityAccelerometerMeanZ    
+	*   timeDomainGravityAccelerometerMeanX                              
+	*   timeDomainGravityAccelerometerMeanY                              
+	*   timeDomainGravityAccelerometerMeanZ    
 	
-	**   timeDomainGravityAccelerometerStandardDeviationX                 
-	**   timeDomainGravityAccelerometerStandardDeviationY                  
-	**   timeDomainGravityAccelerometerStandardDeviationZ    
+	*   timeDomainGravityAccelerometerStandardDeviationX                 
+	*   timeDomainGravityAccelerometerStandardDeviationY                  
+	*   timeDomainGravityAccelerometerStandardDeviationZ    
 	
-	**   timeDomainBodyAccelerometerJerkMeanX                            
-	**   timeDomainBodyAccelerometerJerkMeanY                             
-	**   timeDomainBodyAccelerometerJerkMeanZ   
+	*   timeDomainBodyAccelerometerJerkMeanX                            
+	*   timeDomainBodyAccelerometerJerkMeanY                             
+	*   timeDomainBodyAccelerometerJerkMeanZ   
 	
-	**   timeDomainBodyAccelerometerJerkStandardDeviationX                 
-	**   timeDomainBodyAccelerometerJerkStandardDeviationY                 
-	**   timeDomainBodyAccelerometerJerkStandardDeviationZ  
+	*   timeDomainBodyAccelerometerJerkStandardDeviationX                 
+	*   timeDomainBodyAccelerometerJerkStandardDeviationY                 
+	*   timeDomainBodyAccelerometerJerkStandardDeviationZ  
 	
 *	time-domain body angular velocity
-	**   timeDomainBodyGyroscopeMeanX                                     
-	**   timeDomainBodyGyroscopeMeanY                                      
-	**   timeDomainBodyGyroscopeMeanZ   
+	*   timeDomainBodyGyroscopeMeanX                                     
+	*   timeDomainBodyGyroscopeMeanY                                      
+	*   timeDomainBodyGyroscopeMeanZ   
 	
-	**   timeDomainBodyGyroscopeStandardDeviationX                        
-	**   timeDomainBodyGyroscopeStandardDeviationY                         
-	**   timeDomainBodyGyroscopeStandardDeviationZ  
+	*   timeDomainBodyGyroscopeStandardDeviationX                        
+	*   timeDomainBodyGyroscopeStandardDeviationY                         
+	*   timeDomainBodyGyroscopeStandardDeviationZ  
 	
-	**   timeDomainBodyGyroscopeJerkMeanX                                  
-	**   timeDomainBodyGyroscopeJerkMeanY                                 
-	**   timeDomainBodyGyroscopeJerkMeanZ     
+	*   timeDomainBodyGyroscopeJerkMeanX                                  
+	*   timeDomainBodyGyroscopeJerkMeanY                                 
+	*   timeDomainBodyGyroscopeJerkMeanZ     
 	
-	**   timeDomainBodyGyroscopeJerkStandardDeviationX                     
-	**   timeDomainBodyGyroscopeJerkStandardDeviationY                     
-	**   timeDomainBodyGyroscopeJerkStandardDeviationZ 
+	*   timeDomainBodyGyroscopeJerkStandardDeviationX                     
+	*   timeDomainBodyGyroscopeJerkStandardDeviationY                     
+	*   timeDomainBodyGyroscopeJerkStandardDeviationZ 
 	
 *	Average and standard deviation 
-	**   timeDomainBodyAccelerometerMagnitudeMean                          
-	**   timeDomainBodyAccelerometerMagnitudeStandardDeviation            
-	**   timeDomainGravityAccelerometerMagnitudeMean                       
-	**   timeDomainGravityAccelerometerMagnitudeStandardDeviation          
-	**   timeDomainBodyAccelerometerJerkMagnitudeMean                     
-	**   timeDomainBodyAccelerometerJerkMagnit                              
-	**   timeDomainBodyGyroscopeMagnitudeStandardDeviation                
-	**   timeDomainBodyGyroscopeJerkMagnitudeMean                       
-	**   timeDomainBodyGyroscopeJerkMagnitudeStandardDeviation             
-	**   frequencyDomainBodyAccelerometerMeanX     
+	*   timeDomainBodyAccelerometerMagnitudeMean                          
+	*   timeDomainBodyAccelerometerMagnitudeStandardDeviation            
+	*   timeDomainGravityAccelerometerMagnitudeMean                       
+	*   timeDomainGravityAccelerometerMagnitudeStandardDeviation          
+	*   timeDomainBodyAccelerometerJerkMagnitudeMean                     
+	*   timeDomainBodyAccelerometerJerkMagnit                              
+	*   timeDomainBodyGyroscopeMagnitudeStandardDeviation                
+	*   timeDomainBodyGyroscopeJerkMagnitudeMean                       
+	*   timeDomainBodyGyroscopeJerkMagnitudeStandardDeviation             
+	*   frequencyDomainBodyAccelerometerMeanX     
 
 * 	Frequency-domain signals                       
-	**   frequencyDomainBodyAccelerometerMeanY                            
-	**   frequencyDomainBodyAccelerometerMeanZ                            
-	**   frequencyDomainBodyAccelerometerStandardDeviationX                
-	**   frequencyDomainBodyAccelerometerStandardDeviationY                
-	**   frequencyDomainBodyAccelerometerStandardDeviationZ                
-	**   frequencyDomainBodyAccelerometerJerkMeanX                         
-	**   frequencyDomainBodyAccelerometerJerkMeanY                        
-	**   frequencyDomainBodyAccelerometerJerkMeanZ                        
-	**   frequencyDomainBodyAccelerometerJerkStandardDeviationX           
-	**   frequencyDomainBodyAccelerometerJerkStandardDeviationY           
-	**   frequencyDomainBodyAccelerometerJerkStandardDeviationZ            
-	**   frequencyDomainBodyGyroscopeMeanX                                 
-	**   frequencyDomainBodyGyroscopeMeanY                                
-	**   frequencyDomainBodyGyroscopeMeanZ                               
-	**   frequencyDomainBodyGyroscopeStandardDeviationX                   
-	**   frequencyDomainBodyGyroscopeStandardDeviationY                    
-	**   frequencyDomainBodyGyroscopeStandardDeviationZ                    
-	**   frequencyDomainBodyAccelerometerMagnitudeMean                     
-	**   frequencyDomainBodyAccelerometerMagnitudeStandardDeviation       
-	**   frequencyDomainBodyBodyAccelerometerJerkMagnitudeMean             
-	**   frequencyDomainBodyBodyAccelerometerJerkMagnitudeStandardDeviation
-	**   frequencyDomainBodyBodyGyroscopeMagnitudeMean                   
-	**   frequencyDomainBodyBodyGyroscopeMagnitudeStandardDeviation       
-	**   frequencyDomainBodyBodyGyroscopeJerkMagnitudeMean                
-	**   frequencyDomainBodyBodyGyroscopeJerkMagnitudeStandardDeviation   
+	*   frequencyDomainBodyAccelerometerMeanY                            
+	*   frequencyDomainBodyAccelerometerMeanZ                            
+	*   frequencyDomainBodyAccelerometerStandardDeviationX                
+	*   frequencyDomainBodyAccelerometerStandardDeviationY                
+	*   frequencyDomainBodyAccelerometerStandardDeviationZ                
+	*   frequencyDomainBodyAccelerometerJerkMeanX                         
+	*   frequencyDomainBodyAccelerometerJerkMeanY                        
+	*   frequencyDomainBodyAccelerometerJerkMeanZ                        
+	*   frequencyDomainBodyAccelerometerJerkStandardDeviationX           
+	*   frequencyDomainBodyAccelerometerJerkStandardDeviationY           
+	*   frequencyDomainBodyAccelerometerJerkStandardDeviationZ            
+	*   frequencyDomainBodyGyroscopeMeanX                                 
+	*   frequencyDomainBodyGyroscopeMeanY                                
+	*   frequencyDomainBodyGyroscopeMeanZ                               
+	*   frequencyDomainBodyGyroscopeStandardDeviationX                   
+	*   frequencyDomainBodyGyroscopeStandardDeviationY                    
+	*   frequencyDomainBodyGyroscopeStandardDeviationZ                    
+	*   frequencyDomainBodyAccelerometerMagnitudeMean                     
+	*   frequencyDomainBodyAccelerometerMagnitudeStandardDeviation       
+	*   frequencyDomainBodyBodyAccelerometerJerkMagnitudeMean             
+	*   frequencyDomainBodyBodyAccelerometerJerkMagnitudeStandardDeviation
+	*   frequencyDomainBodyBodyGyroscopeMagnitudeMean                   
+	*   frequencyDomainBodyBodyGyroscopeMagnitudeStandardDeviation       
+	*   frequencyDomainBodyBodyGyroscopeJerkMagnitudeMean                
+	*   frequencyDomainBodyBodyGyroscopeJerkMagnitudeStandardDeviation   
