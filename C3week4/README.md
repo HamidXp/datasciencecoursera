@@ -1,4 +1,4 @@
-## How the script “ run_analysis.R »  work ?
+## How the script run_analysis.R  work ?
 
 
 This script requires the dplyr package. It  assumes the existence of the file to be  analyzed  in a directory named UCI HAR Dataset. it applies the following processing to the data :
