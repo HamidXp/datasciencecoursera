@@ -1,4 +1,8 @@
-# Project : Reproducible Research
+---
+title: "Reproducible Research"
+output:
+  output: md_document
+---
 
 
 ## 1- Getting the data
@@ -18,6 +22,12 @@ hist(data1$totalsteps,col="pink",breaks=40,main="Total steps / day",xlab="Steps 
 abline(v=mean(data1$totalsteps),lty=3, col="red")
 abline(v=median(data1$totalsteps),lty=2, col="blue")
 legend("topright", legend=c("mean", "median"),  col=c("red", "blue"), lty=c(3,2), cex=0.8)
+```
+
+The Mean and median number of steps taken each day :
+```{r}
+mean(data1$totalsteps)
+median(data1$totalsteps)
 ```
 
 ## 3- What is the average daily activity pattern?
@@ -60,6 +70,12 @@ hist(data4$totalsteps,col="green",breaks=40,main="Total steps / day",xlab="Steps
 abline(v=mean(data4$totalsteps),lty=3, col="red")
 abline(v=median(data4$totalsteps),lty=2, col="blue")
 legend("topright", legend=c("mean", "median"),  col=c("red", "blue"), lty=c(3,2), cex=0.8)	
+```
+
+The Mean and median values:
+```{r}
+mean(data4$totalsteps)
+data4$totalsteps
 ```
 
 ## 5-Are there differences in activity patterns between weekdays and weekends?
